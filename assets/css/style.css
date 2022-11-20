@@ -1,0 +1,8 @@
+.header {
+  background-color: navy;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
