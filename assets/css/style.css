@@ -1,8 +1,9 @@
-.header {
+header {
   background-color: navy;
-}
-
-body {
-  display: flex;
-  justify-content: center;
+  color: white;
+  padding: 14px 16px 14px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-family: 'Chewy', cursive;
+  font-size: 48px;
 }

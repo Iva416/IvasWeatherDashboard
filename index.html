@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@1,700&family=Chewy&family=Merriweather&family=Rock+Salt&display=swap"
+        rel="stylesheet">
     <title>Weather Dashboard</title>
 </head>
 
@@ -17,9 +20,9 @@
     </header>
     <div class="columns">
         <div class="column is-one-quarter">
-            <h1>Search for a City:</h1>
-            <input type="text" class="search-bar">
-            <button>Search</button>
+            <h1><b>Search for a City:</b></h1>
+            <input type="text" id="search-bar" class="search-bar">
+            <button id="search-button">Search</button>
         </div>
         <div class="column">
             <div class="today">
@@ -31,7 +34,7 @@
             </div>
             <div>
                 <div class="card">
-                    <h2 id="date1"></h2>
+                    <h2 id="date1">bacon</h2>
                     <h2 id="temperature1"></h2>
                     <img id="iconimage1">
                     <p1 id="windspeed1"></p1>
@@ -67,7 +70,7 @@
                 </div>
             </div>
         </div>
-        <script src="/assets/js/script.js"></script>
+        <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
