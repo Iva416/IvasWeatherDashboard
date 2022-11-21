@@ -2,8 +2,11 @@ header {
   background-color: navy;
   color: white;
   padding: 14px 16px 14px;
-  padding-bottom: 16px;
+  padding-bottom: 20px;
   text-align: center;
   font-family: 'Chewy', cursive;
   font-size: 48px;
+}
+
+.column {
 }
