@@ -8,4 +8,4 @@ This is a codebase for a web design that shows you the current and future weathe
 
 The following image shows the web application's appearance and functionality:
 
-![Read me pic](README.png 'Read me pic')
+![Read me pic](/Images/README.png 'Read me pic')
